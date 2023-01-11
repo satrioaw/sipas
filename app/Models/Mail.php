@@ -16,6 +16,7 @@ class Mail extends Model
 
     const TYPE_IN = 'IN';
     const TYPE_OUT = 'OUT';
+    const TYPE_INT = 'INT';
 
     public function attributes()
     {

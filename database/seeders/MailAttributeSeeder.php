@@ -15,6 +15,24 @@ class MailAttributeSeeder extends Seeder
      */
     public function run()
     {
+
+        // Country::truncate();
+
+        // $csvFile = fopen(base_path("database/data/country.csv"), "r");
+
+        // $firstline = true;
+        // while (($data = fgetcsv($csvFile, 2000, ",")) !== FALSE) {
+        //     if (!$firstline) {
+        //         Country::create([
+        //             "name" => $data['0'],
+        //             "code" => $data['1']
+        //         ]);
+        //     }
+        //     $firstline = false;
+        // }
+
+        // fclose($csvFile);
+
         // Mail Classification
         MailAttribute::create([
             "type" => "Klasifikasi",

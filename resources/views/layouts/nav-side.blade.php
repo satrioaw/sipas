@@ -128,7 +128,7 @@
                 <li class="nav-item">
                     <a class="nav-link has-arrow {{ Request::routeIs('tu.mail.out.index') ? 'active' : '' }}"
                         href="{{ route('tu.mail.out.index') }}">
-                        <i data-feather="repeat" class="nav-icon icon-xs me-2"></i> Surat Keluar
+                        <i data-feather="repeat" class="nav-icon icon-xs me-2"></i> Surat Internal
                     </a>
 
                 </li>
@@ -198,7 +198,7 @@
                 <li class="nav-item">
                     <a class="nav-link has-arrow {{ Request::routeIs('tu.mail.out.index') ? 'active' : '' }}"
                         href="{{ route('tu.mail.out.index') }}">
-                        <i data-feather="repeat" class="nav-icon icon-xs me-2"></i> Surat Keluar
+                        <i data-feather="repeat" class="nav-icon icon-xs me-2"></i> Surat Internal
                     </a>
 
                 </li>
