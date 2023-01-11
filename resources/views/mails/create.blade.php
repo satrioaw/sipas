@@ -11,6 +11,7 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <x-page-title page="{{ $title }}" icon="bi-plus"></x-page-title>
                 <!-- Card -->
+
                 <div class="card mt-6 mb-6">
                     <div class="tab-content p-4" id="pills-tabContent-basic-forms">
                         <div class="tab-pane tab-example-design fade show active" id="pills-basic-forms-design"
