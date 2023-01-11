@@ -26,7 +26,7 @@ class MailInDispositionController extends Controller
         abort_if(!MailServices::mailActionGate($mail, Auth::user()), 400);
 
         $target_users = Auth::user()->getLowerUsers('in');
-        $target_users->load('level', 'department');
+        //$target_users->load('level', 'department');
 
         // Additional can bypass head
         if (Auth::user()->getSameUser()->level->name == 'Sekretaris') {
