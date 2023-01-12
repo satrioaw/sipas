@@ -75,6 +75,43 @@ class EventServiceProvider extends ServiceProvider
             // SendNotification::class,
         ],
 
+        CreatedMailIntProcess::class => [
+            ProcessMailAttributeTransaction::class,
+            ProcessMailFile::class,
+            ProcessMailVersion::class,
+            ProcessMailTransaction::class,
+            ProcessMailLog::class,
+            // SendNotification::class,
+        ],
+
+        UpdatedMailIntProcess::class => [
+            ProcessMailAttributeTransaction::class,
+            ProcessMailFile::class,
+            ProcessMailVersion::class,
+            ProcessMailTransaction::class,
+            ProcessMailLog::class,
+            // SendNotification::class,
+        ],
+
+        FinalizedMailIntProcess::class => [
+            ProcessMailAttributeTransaction::class,
+            ProcessMailFile::class,
+            ProcessMailVersion::class,
+            ProcessMailLog::class,
+        ],
+
+        ForwardedMailInt::class => [
+            ProcessMailLog::class,
+            // SendNotification::class,
+        ],
+
+        RevisedMailIntProcess::class => [
+            ProcessRevisionFile::class,
+            ProcessMailCorrection::class,
+            ProcessMailLog::class,
+            // SendNotification::class,
+        ],
+
         CreatedMailInProcess::class => [
             ProcessMailAttributeTransaction::class,
             ProcessMailFile::class,
